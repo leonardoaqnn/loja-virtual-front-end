@@ -47,11 +47,10 @@ Aqui estão algumas capturas de tela do projeto:
 
 ### Tela Inicial
 
-![Tela Inicial](images/imagemloja1.jpg)
+![Tela Inicial](images/imagemloja1.JPG)
 
 ### Carrinho de Compras
-
-![Carrinho de Compras](images/imagemloja2.jpg)
+![Carrinho de Compras](images/imagemloja2.JPG)
 
 ## Tecnologias Usadas
 
