@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f5b7b1;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+}
+
+.produto img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    background: #ff7675;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background: #e74c3c;
+}
+
+.cart {
+    background: #fbeee6;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d3436;
+    display: block;
+    margin-top: 10px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.total input {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background: #f5b7b1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
