@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja</h1>
+    </header>
+
+    <section class="catalogo">
+        <div class="produto">
+            <img src="almofadaproduto1.jpg" alt="Produto 1">
+            <h2>Almofada</h2>
+            <p>Uma almofada confortável.</p>
+            <span class="preco">R$ 16,00</span>
+            <button onclick="addcarrinho('Almofada', 16.00)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="produto">
+            <img src="sofaproduto2.jpg" alt="Produto 2">
+            <h2>Sofá</h2>
+            <p>Um sofá macio e aconchegante.</p>
+            <span class="preco">R$ 1.499,00</span>
+            <button onclick="addcarrinho('Sofá', 1499.00)">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Carrinho</h2>
+        <ul id="carrinhoitens"></ul>
+        <div class="total">
+            <label for="carrinhototal">Total:</label>
+            <input type="text" id="carrinhototal" readonly />
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
