@@ -1,6 +1,4 @@
-Claro! Aqui está um `README.md` mais simples, no estilo dos que fizemos para os outros projetos:
 
-```markdown
 # Mini Catálogo Loja
 
 ## Descrição
